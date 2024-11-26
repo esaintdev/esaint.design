@@ -7,7 +7,11 @@ html {
   }
   
   body {
-     @apply bg-zinc-900 text-zinc-50
+     @apply bg-zinc-900 text-zinc-50;
+     background-image: url('/images/bluebg.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-blend-mode: soft-light;
 
 
   }
@@ -127,7 +131,7 @@ html {
    }
 
    .text-field {
-    @apply block outline-none w-full px-3 py-3 text-sm bg-zinc-800 rounded-xl ring-1 ring-inset ring-transparent transition-shadow hover:ring-zinc-50/5 focus:ring-zinc-50/5 focus:ring-2 
+    @apply block outline-none w-full px-3 py-3 text-sm bg-gray-900 rounded-xl ring-1 ring-inset ring-transparent transition-shadow hover:ring-zinc-50/5 focus:ring-zinc-50/5 focus:ring-2 
    }
 
    .text-field::placeholder {

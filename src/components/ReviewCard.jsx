@@ -13,7 +13,7 @@ ratings.fill({
 
 const ReviewCard = ({ content, imgSrc, name, company }) => {
   return (
-    <div className="bg-zinc-800 p-5 rounded-xl min-w-[320px] flex flex-col lg:min-w-[420px] ">
+    <div className="bg-gray-950 p-5 rounded-xl min-w-[320px] flex flex-col lg:min-w-[420px] ">
 
       <div className="flex items-center gap-1 mb-3">
 
